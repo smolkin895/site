@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    min-height: 1220px;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+ul,
+li,
+h1,
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    min-height: 500px;
+    background: url("img/wheat-back.jpg") no-repeat;
+    /* background-size: cover; */
+    font-size: 12px;
+}
+
+.header-top{
+
+}
+
+.header-logo{
+    float: left;
+    width: 140px;
+    height: 76px;
+    margin-top: 65px;
+    margin-left: 200px;
+}
+
+.header-logo img{
+    width: 140px;
+    height: 76px;
+}
+.header-nav{
+    float: left;
+    width: 600px;
+    padding: 20px 0;
+    margin-left: 55px;
+    margin-top: 70px;
+    font: inherit;
+    font-size: 18px;
+    color: inherit;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 130px;
+
+}
+
+.header-nav li{
+    margin-right: 65px;
+}
+
+.header-nav li:last-child{
+    margin-right: 0;
+}
+
+.header-nav li{
+    display: inline-block;
+}
+
+.header-title{
+    width: 570px;
+    margin: 0 auto;
+    font-size: 55px;
+    text-align: center;
+}
