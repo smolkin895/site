@@ -7,6 +7,7 @@
 body{
     margin: 0;
     padding:0;
+    min-width: 1220px;
     font-family: "Arial", sans-serif;
     font-size: 16px;
 }
@@ -34,7 +35,7 @@ a{
     clear: both;
 }
 
-.container-1010{
+.container-1200{
     width: 1010px;
     margin: 0 auto;
 }
@@ -214,39 +215,72 @@ a{
 
 .features{
     min-height: 410px;
-}
-
-.features{
-    padding: 180px 100px 0 90px;
+    background-color: #ffcb78;
+    padding: 80px 0px 0 0px;
     font-size: 16px;
     line-height: 30px;
 }
+
+
 
 .features h2{
     text-transform: uppercase;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .features li{
     float: left;
+    position: relative;
+}
+
+.features li::before{
+    position: absolute;
+    content: "";
+}
+
+.features p{
+    color: #404040;
+}
+.features li:first-child::before{
+    background-image: url("img\\icon-brew.png");
+    background-repeat: no-repeat;
+    top: 0;
+    width: 50px;
+    height: 68px;
+}
+
+.features li:nth-child(2)::before{
+    background-image: url("img\\icon-matreshka.png");
+    background-repeat: no-repeat;
+    top: 0;
+    width: 46px;
+    height: 65px;
+}
+
+.features li:nth-child(3)::before{
+    background-image: url("img\\icon-thumbsup.png");
+    background-repeat: no-repeat;
+    top: 0;
+    left:95px;
+    width: 63px;
+    height: 58px;
 }
 
 .features li:nth-child(1){
-    width:300px;
+    width:305px;
     text-align: left;
-    margin-right: 5px;
-    padding: 0 45px;
+    padding: 100px 95px 0 0px;
 }
 .features li:nth-child(2){
     width:400px;
-    margin-right: 5px;
-    text-align: center;
-    padding: 0 95px;
+    padding: 100px 100px 0 95px;
+    border-left: 1px solid #909090;
 }
 .features li:nth-child(3){
-    width:300px;
-    text-align: right;
-    padding: 0 45px;
+    width:305px;
+    padding: 100px 0 0 95px;
+    border-left: 1px solid #909090;
+
 }
