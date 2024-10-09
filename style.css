@@ -282,5 +282,82 @@ a{
     width:305px;
     padding: 100px 0 0 95px;
     border-left: 1px solid #909090;
+}
+
+.info{
+    padding: 80px 0 0 0;
+    min-height: 680px;
+}
+
+.info h2{
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.info dt{
+    font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.info img{
+    float: right;  
+    position: absolute;
+    left: 600px;
+    top: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.info i:nth-child(1){
+    float: right;
+    position: absolute;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 400;
+    top: 5px;
+    left: 610px;
+}
+
+.info i:nth-child(2){
+    float: right;
+    position: absolute;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 400;
+    top: 235px;
+    left: 610px;
+}
+
+.info i a{
+    color: #976a42;
+    text-decoration: underline;
+    text-transform: none;
+}
+
+.info dd{
+    position: relative;
+    width: 800px;
+}
+.info dl{
+    width: 800px;
+}
+
+.info dd p{
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 305px;
+    color: #404040;
 
 }
+
+.info dd:not(:last-child) p{
+    margin-bottom: 60px;
+}
+
+
