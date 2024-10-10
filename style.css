@@ -360,4 +360,70 @@ a{
     margin-bottom: 60px;
 }
 
+.reviews{
+    min-height: 480px;
+    padding-top: 80px;
+    position: relative;
+    background-color: #ede5d8;
+}
 
+.reviews h2{
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-bottom: 75px;
+}
+.reviews .container-800{
+    position:relative;
+
+}
+.reviews .description{
+    font-size: 16px;
+    line-height: 30px; 
+    color: #404040;
+    width: 690px;
+    height: 90px;
+
+    }
+    
+.reviews  cite{
+    position: absolute;
+    right: 0px;
+    /* text-wrap: nowrap; */
+    color: black;
+    min-width: 330px;
+    margin-top: 45px;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-style: normal; 
+    font-weight: 700;
+    }
+
+.reviews a{
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 169px;
+    height: 50px;
+    border: 2px solid #a6a097;
+    color: #bcb6ab;
+    margin-top: 35px;
+    /* margin-right: 300px; */
+    font-weight: bold;
+    }
+
+
+.reviews .container-800::before{
+    left: -105px;
+    top: 140px;
+    position: absolute;
+    display: table;
+    content: "";
+    width: 41px;
+    height: 31px;
+    background: url('img\\quotes.png') no-repeat;
+}
