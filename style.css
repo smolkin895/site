@@ -34,6 +34,13 @@ a{
     color: inherit;
 }
 
+h2{
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
 .clearfix{
     display: table;
     content: "";
@@ -438,6 +445,10 @@ a{
     padding-top: 90px;
 }
 
+.order-form{
+    width: 630px;
+}
+
 .choice tr td:nth-child(1){
     width: 400px;
     font-size: 16px;
@@ -507,14 +518,14 @@ a{
 }
 
 .order h2{
-    margin-bottom: 84px;
+    margin-bottom: 75px;
 }
 
 .order .call{
     font-size: 16px;
     line-height: 30px;
-    width: 650px;
-    padding-bottom: 70px;
+    width: 660px;
+    margin-bottom: 70px;
     color: #404040;
 }
 
@@ -539,7 +550,7 @@ a{
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .phone-group{
